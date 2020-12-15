@@ -278,9 +278,6 @@ img {
   max-height: 100%;
   vertical-align: middle;
 }
-img:not(:last-child) {
-  margin-bottom: 0.5em;
-}
 img[crx-img=round] {
   -webkit-border-radius: 100%;
   -moz-border-radius: 100%;
