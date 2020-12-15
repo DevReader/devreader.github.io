@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="x-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +10,10 @@
     <meta name="keywords" content="devreader, android, html, js, css, sass, javascript, development, ui, design, corex">
     <meta name="author" content="DevReader Project">
     <meta name="generator" content="VSCode">
+    <meta name="msapplication-TileColor" content="#202125">
+    <meta name="msapplication-TileImage" content="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#202125">
+
     <link rel="apple-touch-icon" sizes="57x57" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/apple-icon-72x72.png">
@@ -21,13 +27,18 @@
     <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/favicon-16x16.png">
-    <meta name="msapplication-TileColor" content="#202125">
-    <meta name="msapplication-TileImage" content="https://raw.githubusercontent.com/devreader/devreader.github.io/master/res/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#202125">
     <link rel="manifest" href="/manifest.json">
     <link href="assets/css/corex.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163812022-1"></script>
+    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-163812022-1");</script>
+
+    <!-- Стили для CommentsAPP -->
     <style>iframe#comments-app-PngastJW-1 {border-radius:.5em!important;}</style>
+
     <title>DevReader</title>
+
   </head>
 
   <body>
@@ -113,6 +124,13 @@
 
       </div><!-- .row -->
 
+      <!-- CommentsAPP -->
+      <div class="row">
+        <div class="col-12">
+          <script async src="https://comments.app/js/widget.js?3" data-comments-app-website="PngastJW" data-limit="5" data-dislikes="1" data-colorful="1" data-dark="1"></script>
+        </div>
+      </div>
+
     </div><!-- .container -->
 
     <footer crx-footer="centered">
@@ -121,9 +139,6 @@
 
     </footer>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163812022-1"></script>
-    <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-163812022-1");</script>
-
   </body>
+
 </html>
