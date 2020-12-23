@@ -262,7 +262,7 @@ hr {
 }
 
 a {
-  color: inherit;
+  color: #FFC68A;
   text-decoration: underline;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
@@ -270,7 +270,7 @@ a {
   transition: color 0.3s;
 }
 a:hover, a:visited {
-  color: #FFC68A;
+  color: #ff9424;
 }
 a:active {
   color: #8a4700;
@@ -2092,6 +2092,7 @@ pre.hljs::-webkit-scrollbar-thumb {
 .crx-breadcrumbs li + li:before {
   content: "›";
   padding: 0 0.6em;
+  color: white;
 }
 .crx-breadcrumbs::-webkit-scrollbar-track {
   background: #2c2c2c;
@@ -2099,6 +2100,23 @@ pre.hljs::-webkit-scrollbar-thumb {
 .crx-breadcrumbs::-webkit-scrollbar-thumb {
   background-color: #FFC68A;
   border: 5px solid #2c2c2c;
+}
+.crx-breadcrumbs li > a {
+  text-decoration: none;
+}
+.crx-breadcrumbs li[onclick] {
+  color: #FFC68A;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3s;
+  transition: color 0.3s;
+}
+.crx-breadcrumbs li[onclick]:hover, .crx-breadcrumbs li[onclick]:visited {
+  color: #ff9424;
+}
+.crx-breadcrumbs li[onclick]:active {
+  color: #8a4700;
 }
 
 .crx-button {
@@ -2415,6 +2433,22 @@ h6 {
 
 .crx-text--muted {
   color: #4d4d4d;
+}
+
+.crx-text--info {
+  color: #1E88E5;
+}
+
+.crx-text--success {
+  color: #43A047;
+}
+
+.crx-text--warning {
+  color: #E65100;
+}
+
+.crx-text--danger {
+  color: #E53935;
 }
 
 .crx-text-size68 {
