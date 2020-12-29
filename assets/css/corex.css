@@ -2508,4 +2508,18 @@ kbd {
   border-radius: 4px;
 }
 
+.dr-tag {
+  border: 2px solid #2c2c2c;
+  padding: 0.2em 0.4em;
+  font-size: 50%;
+  pointer-events: none;
+  cursor: not-allowed;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
 /*# sourceMappingURL=corex.css.map */
