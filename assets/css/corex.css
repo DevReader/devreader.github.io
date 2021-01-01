@@ -269,7 +269,7 @@ a {
   -o-transition: color 0.3s;
   transition: color 0.3s;
 }
-a:hover, a:visited {
+a:hover {
   color: #ff9424;
 }
 a:active {
@@ -2506,6 +2506,32 @@ kbd {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+}
+
+.dr-card_banner {
+  border: 2px solid rgba(255, 198, 138, 0.2);
+  background: linear-gradient(130deg, rgba(255, 198, 138, 0.1) 0%, transparent 100%);
+  padding: 1em 1.2em 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+  -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  -moz-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  -o-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+.dr-card_banner h4 {
+  margin: 0;
+}
+.dr-card_banner:hover {
+  background-color: rgba(255, 198, 138, 0.2);
+  border-color: rgba(255, 198, 138, 0.2);
+}
+.dr-card_banner:active {
+  background-color: #FFC68A;
+  color: black;
 }
 
 .dr-tag {
