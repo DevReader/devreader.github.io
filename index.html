@@ -34,6 +34,8 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163812022-1"></script>
     <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-163812022-1");</script>
 
+    <style>.blink{animation:blink-animation 1s steps(5,start) infinite;-webkit-animation:blink-animation 1s steps(5,start) infinite}@keyframes blink-animation{to{visibility:hidden}}@-webkit-keyframes blink-animation{to{visibility:hidden}}</style>
+
     <title>DevReader</title>
 
   </head>
@@ -43,7 +45,7 @@
     <header>
       <img src="res/img/logo_devreader.png" alt="Логотип проекта" width="150px" height="150px">
       <h1>DevReader</h1>
-      <p>На данный момент DevReader в разработке и многие материалы со справочника могут быть неточны - просим обратить на это внимание.</p>
+      <p>На данный момент проект находится в стадии прототипирования и не все процессы отлажены. В силу данных обстоятельств могут возникать некритичные (а может и наоборот) ошибки. Подождите, скоро всё нормализуется..<span class="blink">.</span></p>
     </header>
 
     <div class="container">
@@ -154,9 +156,11 @@
 
       </div><!-- .row -->
 
+      <br>
+
       <!-- ? Блок для мобильных приложений -->
       <div class="row">
-        <div class="col-12" id="el_androidAppSectionCard" style="margin: 1.2em 0; display: block;">
+        <div class="col-12" id="el_androidAppSectionCard" style="margin: 1.2em 0; display: none;">
           <div class="dr-card_banner">
             <h4>Проще. Удобнее. Быстрее.</h4>
             <p>Специально для пользователей мобильного приложения DevReader для Android был открыт специальный раздел с информацией о программе, новости о грядущих обновлениях, блог, FAQ и много другое.</p>
