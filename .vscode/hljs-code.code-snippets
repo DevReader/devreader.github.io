@@ -1,0 +1,12 @@
+{
+	"hljs code container": {
+		"prefix": "hljs-code",
+		"scope": "html",
+		"body": [
+			"<pre class=\"hljs\"><code>",
+			"$1",
+			"</code></pre>"
+		],
+		"description": "Картинка заполнитель"
+	}
+}
