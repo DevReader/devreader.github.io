@@ -1,4 +1,5 @@
 {
+
 	"hljs code container": {
 		"prefix": "hljs-code",
 		"scope": "html",
@@ -6,7 +7,47 @@
 			"<pre class=\"hljs\"><code>",
 			"$1",
 			"</code></pre>"
-		],
-		"description": "Картинка заполнитель"
+		]
+	},
+
+	"CoreX Alert": {
+		"prefix": "crx-alert",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert\">$1</p>"
+		]
+	},
+
+	"CoreX Alert Info": {
+		"prefix": "crx-alert_info",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_info\">$1</p>"
+		]
+	},
+
+	"CoreX Alert Warning": {
+		"prefix": "crx-alert_warning",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_warning\">$1</p>"
+		]
+	},
+
+	"CoreX Alert Danger": {
+		"prefix": "crx-alert_danger",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_danger\">$1</p>"
+		]
+	},
+
+	"CoreX Alert Success": {
+		"prefix": "crx-alert_success",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_success\">$1</p>"
+		]
 	}
+
 }
