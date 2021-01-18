@@ -1,0 +1,62 @@
+{
+
+	"[CoreX] Alert": {
+		"prefix": "alert",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert\">$1<code>"
+		]
+  },
+  
+  "[CoreX] Alert Danger": {
+		"prefix": "alert-danger",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_danger\">$1<code>"
+		]
+  },
+
+  "[CoreX] Alert Warning": {
+		"prefix": "alert-warning",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_warning\">$1<code>"
+		]
+  },
+
+  "[CoreX] Alert Success": {
+		"prefix": "alert-success",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_success\">$1<code>"
+		]
+  },
+
+  "[CoreX] Alert Info": {
+		"prefix": "alert-info",
+		"scope": "html",
+		"body": [
+			"<p class=\"crx-alert crx-alert_info\">$1<code>"
+		]
+  },
+
+  "[CoreX] List": {
+		"prefix": "list",
+		"scope": "html",
+		"body": [
+			"<ul class=\"crx-list\">",
+      "  <li crx-list=\"title\">Title</li>",
+      "  <li onclick=\"location.href=''\">Item</li>",
+      "</ul>",
+		]
+  },
+
+  /*"[CoreX] ": {
+		"prefix": "",
+		"scope": "html",
+		"body": [
+			""
+		]
+  },*/
+
+}
