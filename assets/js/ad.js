@@ -10,6 +10,10 @@ fetch('https://raw.githubusercontent.com/devreader/devreader.github.io/master/as
 
      console.log(json);
 
+     if (json.adVisible == false) {
+       ad.style.display = "none"
+     }
+     
      ad.onclick = function() { location.href=json.adClickLink; };
      ad.setAttribute("title", "Нажмите, чтобы перейти по рекомендации " + json.adClient);
      title.innerHTML = json.adTitle;
